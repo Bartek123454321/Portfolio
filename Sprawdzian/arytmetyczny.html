@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Sprawdzian</title>
+</head>
+<body>
+    <header>
+        <div id="header"> <h1>Sprawdzian</h1></div>
+    </header>
+    <main>
+        <menu>
+            <div id="lewo1">Zadania</div>
+            <div id="lewo2">
+                <ul>
+                    <li><a href="arytmetyczny.html">ciąg artmetyczny</a></li>
+                    <li><a href="geometryczny.html">ciąg geometryczny</a></li>
+                    <li><a href="zabezpieczone.html">zabezpieczone</a></li>
+                </ul>
+            </div>
+        </menu>
+        <section>
+            <div id="prawo">
+                <label for="an">an <input type="text" name="an" id="an"></label> <br>
+                <label for="a1">a1 <input type="text" name="a1" id="a1"></label> <br>
+                <label for="n">n <input type="text" name="n" id="n"></label> <br>
+                <label for="r">r <input type="text" name="r" id="r"></label> <br>
+                <button onclick="arytmetyczny()">Oblicz</button> <br>
+                <p id="arytmetyczny"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer1"> <h2>PESEL: 00000000000</h2> </div>
+        <div class="footer2"> <h3 id="footer2"></h3></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
